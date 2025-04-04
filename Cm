@@ -6,7 +6,7 @@
   <h2>Camera aur Mic Access</h2>
   <video id="video" autoplay playsinline style="width: 100%; max-width: 600px;"></video>
   <script>
-    async function startMedia() {
+    async function startmedia() {
       try {
         const stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true });
         const videoElement = document.getElementById('video');
